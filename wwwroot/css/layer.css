@@ -1,0 +1,543 @@
+.root-78 {
+    position: fixed;
+    z-index: 1000000;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+}
+
+.root-79 {
+    position: fixed;
+    z-index: 1000000;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+}
+
+.bowtie-img::before {
+    content:url("../../img/icon/img_w.png");
+}
+
+.bowtie-gif::before {
+    content:url("../../img/icon/gif_w.png");
+}
+
+.bowtie-movie::before {
+    content:url("../../img/icon/movie_w.png");
+}
+
+.content-80 {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(225, 223, 221);
+}
+
+.root_d549a1c3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.root_d549a1c3.rootIsOpen_d549a1c3 .overlay_d549a1c3 {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.root_d549a1c3 .overlay_d549a1c3 {
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transition: opacity .367s cubic-bezier(0.1, 0.9, 0.2, 1);
+    transition: opacity .367s cubic-bezier(0.1, 0.9, 0.2, 1);
+}
+
+.root-71 {
+    background-color: rgba(255, 255, 255, 0.4);
+    inset: 0px;
+    position: absolute;
+}
+
+.main_d549a1c3 {
+    background-color: rgba(32, 31, 30, 1);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    right: 0;
+    left: auto;
+}
+
+.ms-Panel-commands .navigation {
+    padding: 0 5px;
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.ms-Panel-commands .button {
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: top;
+    padding: 0px 4px;
+    border-radius: 0px;
+    width: 44px;
+    height: auto;
+    background-color: transparent;
+    user-select: none;
+}
+
+.ms-Panel-commands .closeButton {
+    color: rgba(16,110,190,1);
+    color: rgba(var(--palette-primary-shade-10,16, 110, 190),1);
+}
+
+.ms-Panel-commands .flexContainer {
+    display: flex;
+    height: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.ms-Panel-main .inner {    
+    position: absolute;
+    top: 44px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.ms-Panel-main .content{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    overflow-y: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.content .font {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(225, 223, 221);
+    visibility: visible;
+}
+
+.content .add-selection {
+    min-height: calc(100vh - 100px);
+}
+
+.add-selection .content-title{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.add-selection .content-title .title-label {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title-label .font {
+    color: rgb(225, 223, 221);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: block;
+    padding: 5px 0px;
+    overflow-wrap: break-word;
+}
+
+.inner .content .content-main {
+    margin: 5px 0 0 0;
+    position: relative;
+}
+
+.content .content-type .input-field-label{
+    font-size: 14px;
+    display: inline-block;
+    color: rgb(225, 223, 221);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: block;
+    padding: 5px 0px;
+    overflow-wrap: break-word;
+}
+
+.content-type .show-options{
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.show-options .options-item {
+    display: inline-block;
+    min-height: 0;
+    padding-left: 5px !important;
+    padding: 6px 6px 5px 5px;
+    margin-top: 0;
+    margin-right: 15px;
+}
+
+.input-field-component {
+    margin: 5px 0 0 0;
+    position: relative;
+}
+
+.input-field-component .input-field-label {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.input-field-component .input-control-radio-button {
+    padding-bottom: 5px;
+}
+
+.fabric-style-overrides .ms-ChoiceFieldGroup {
+    margin-bottom: 0;
+}
+
+.fabric-style-overrides.show-options-horizontally .ms-ChoiceField {
+    display: inline-block;
+}
+
+.fabric-style-overrides .ms-ChoiceField {
+    min-height: 0;
+    padding-left: 5px !important;
+    padding: 6px 6px 5px 5px;
+    margin-top: 0;
+    margin-right: 15px;
+}
+
+.choiceField_5650e391 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgba(225, 223, 221, 1);
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 26px;
+    border: none;
+    position: relative;
+    margin-top: 8px;
+}
+
+.input_5650e391 {
+    position: absolute;
+    opacity: 0;
+    top: 8px;
+}
+
+.artifact-source-type .artifact-type-ChoiceField-field.is-checked, .img-type-ChoiceField-field.is-checked {
+    border-color: rgba(0,120,212,1);
+    border-color: var(--communication-background,rgba(0, 120, 212, 1));
+    background-color: rgba(222,236,249,1);
+    background-color: rgba(var(--palette-primary-tint-30,222, 236, 249),1);
+}
+
+.artifact-source-type .artifact-type-ChoiceField-field {
+    display: inline-block;
+    padding-top: 22px;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 100px;
+    cursor: pointer;
+}
+
+.artifact-source-type .img-type-ChoiceField-field {
+    display: inline-block;
+    padding-top: 5px;
+    text-align: center;
+    border: 2px solid transparent;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+.artifact-source-type .artifact-type-ChoiceField-innerField {
+    position: relative;
+    padding: 0 28px;
+}
+
+.artifact-source-type .artifact-type-ChoiceField-iconWrapper {
+    font-size: 32px;
+    line-height: 32px;
+    height: 32px;
+}
+
+.artifact-source-type i.bowtie-icon.artifact-type-icon {
+    font-size: 32px;
+}
+
+.bowtie-icon, i.bowtie-icon, .bowtie>i, .bowtie-fabric>i, .bowtie-fabric .bowtie-icon {
+    font-family: "Bowtie";
+    font-size: 14px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.artifact-source-type .artifact-type-ChoiceField-labelWrapper {
+    display: block;
+    position: relative;
+    margin: 4px 0 0 0;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.artifact-source-type .artifact-type-label {
+    padding: 12px 5px 0 5px;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    height: 26px;
+}
+
+.artifact-source-type .artifact-type-label .bowtie-icon.bowtie-check {
+    padding-right: 5px;
+}
+
+div.rich-content-tooltip.v2.auto-width {
+    width: auto;
+    max-width: 500px;
+}
+
+div.rich-content-tooltip.v2 {
+    position: fixed;
+    width: 400px;
+    pointer-events: none;
+    word-wrap: break-word;
+}
+
+.popup-content-control {
+    display: none;
+}
+
+div.rich-content-tooltip.v2 .popup-tag {
+    position: fixed;
+}
+
+div.rich-content-tooltip.v2 .popup-content-container {
+    color: rgba(255,255,255,1);
+    color: rgba(var(--palette-neutral-0,255, 255, 255),1);
+    background-color: rgba(0,0,0,1);
+    background-color: rgba(var(--palette-neutral-100,0, 0, 0),1);
+    font-family: "Segoe UI VSS (Regular)","Segoe UI","-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue",Helvetica,Ubuntu,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    border: 1px solid;
+    border-color: rgba(234,234,234,1);
+    border-color: rgba(var(--palette-neutral-8,234, 234, 234),1);
+    padding: 8px;
+    margin: 11px 0;
+    box-shadow: 0 0 15px -5px rgb(0 0 0 / 90%);
+    box-shadow: 0 0 15px -5px rgba(var(--palette-neutral-100,0, 0, 0),.9);
+    white-space: normal;
+    user-select: text;
+    font-size: 12px;
+}
+
+.artifact-selection-tab-content .confirm-artifact-button {
+    margin-top: 20px;
+}
+
+.root-113 {
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+    vertical-align: top;
+    padding: 0px 16px;
+    border-radius: 0px;
+    min-width: 80px;
+    height: 32px;
+    background-color: rgb(41, 40, 39);
+    color: rgb(121, 119, 117);
+    pointer-events: none;
+    user-select: none;
+}
+
+
+.textContainer {
+    flex-grow: 1;
+}
+
+.labelg {
+    margin: 0px 4px;
+    line-height: 100%;
+    font-weight: 600;
+}
+
+.confirm-artifact-button:not(.is-disabled) {
+    color: rgba(255,255,255,1);
+    color: var(--text-on-communication-background,rgba(255, 255, 255, 1));
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.artifact-inputs{
+    padding-top: 3px;
+}
+
+.input-field-component {
+    margin: 5px 0 0 0;
+    position: relative;
+}
+
+.input-field-component .input-field-label {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.root-111 {
+    color: rgb(225, 223, 221);
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    display: block;
+    padding: 5px 0px;
+    overflow-wrap: break-word;
+}
+
+.root-111::after {
+    content: " *";
+    color: rgb(241, 112, 123);
+    padding-right: 12px;
+}
+
+.combo-box-container-parent {
+    height: 100%;
+    border: 1px solid transparent;
+}
+
+.combo-box-container-parent .combo-box-container.invalid-css, .combo-box-container-parent .combo-box-container.invalid-css:hover {
+    border: 1px solid;
+    border-color: rgba(168,0,0,1);
+    border-color: rgba(var(--palette-accent1-dark,168, 0, 0),1);
+}
+
+.combo-box-container-parent .combo-box-container {
+    height: 32px;
+    font-size: 14px;
+}
+
+.combo-box-container-parent .combo div.wrap {
+    padding-left: 0;
+}
+
+.combo>div.wrap {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    display: block;
+    padding-left: 2px;
+    width: 100%;
+}
+
+.combo div.wrap>input[type=text] {
+    width: calc(100% - 30px);
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.combo-box-container-parent .combo-box-input {
+    padding: 6px 8px;
+    color: rgba(0,0,0,.9);
+    color: var(--text-primary-color,rgba(0, 0, 0, .9));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+input {
+    /*-webkit-writing-mode: horizontal-tb !important;*/
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}

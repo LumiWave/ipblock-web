@@ -1,0 +1,392 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,1);
+    background-color: var(--background-color,rgba(255, 255, 255, 1));
+    color: rgba(0,0,0,.9);
+    color: var(--text-primary-color,rgba(0, 0, 0, .9));
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI VSS (Regular)","Segoe UI","-apple-system",BlinkMacSystemFont,Roboto,"Helvetica Neue",Helvetica,Ubuntu,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+body.lwp {
+    font-size: .875rem;
+}
+
+/* common start */
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.full-size {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.region-page {
+    flex-direction: column;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-noshrink {
+    flex-shrink: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.scroll-hidden {
+    overflow: hidden;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* common end */
+
+/* header start */
+.project-header {
+    position: relative;
+    height: 48px;
+    width: 100%;
+}
+
+.region-header {
+    background: rgba(255,255,255,1);
+    background: var(--nav-header-background,rgba(255, 255, 255, 1));
+    box-shadow: rgb(0 0 0 / 8%) 0 1px 0;
+    box-shadow: var(--border-subtle-color,rgba(0, 0, 0, .08)) 0 1px 0;
+    color: rgba(0,0,0,.55);
+    color: var(--nav-vertical-text-secondary-color,rgba(0, 0, 0, .55));
+    min-height: 48px;
+    overflow-x: hidden;
+    z-index: 10;
+}
+
+.region-header .commandbar-item {
+    position: relative;
+}
+
+.suite-logo {
+    color: rgba(0,120,212,1);
+    color: var(--nav-header-product-color,rgba(0, 120, 212, 1));
+}
+
+.commandbar-item {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-shrink: 0;
+    outline: none;
+    position: relative;
+}
+
+.bolt-link {
+    border-radius: 2px;
+    color: rgba(0,90,158,1);
+    color: var(--communication-foreground,rgba(0, 90, 158, 1));
+    cursor: pointer;
+    outline: transparent;
+    text-decoration: none;
+    transition: color 80ms cubic-bezier(.165,.84,.44,1),background 80ms linear;
+}
+
+.suite-logo .suite-image {
+    font-size: 1.3125rem;
+}
+
+.region-header .commandbar-icon {
+    width: 48px;
+}
+
+.fabric-icon {
+    align-self: center;
+    display: inline-flex;
+    font-family: "AzureDevOpsMDL2Assets";
+    -webkit-font-smoothing: antialiased;
+}
+
+.suite-logo {
+    color: rgba(0,120,212,1);
+    color: var(--nav-header-product-color,rgba(0, 120, 212, 1));
+}
+
+.suite-logo .brand {
+    width: 212px;
+    height: 19px;
+    font-size: 14px;
+}
+
+.font-weight-heavy {
+    font-weight: bold;
+}
+
+.body-m {
+    font-size: .875rem;
+}
+
+.bolt-breadcrumb-with-items {
+    min-width: 50px;
+}
+
+.bolt-breadcrumb-with-items {
+    min-width: 50px;
+}
+
+.bolt-breadcrumb-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+}
+
+.bolt-breadcrumb-overflow {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bolt-breadcrumb-list-item {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.bolt-breadcrumb-item {
+    display: inline-flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.bolt-breadcrumb-item a {
+    text-decoration: none;
+}
+
+.bolt-breadcrumb-item-text-container {
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+}
+
+.header-breadcrumb .bolt-breadcrumb .bolt-breadcrumb-item-text {
+    color: rgba(0,0,0,.55);
+    color: var(--nav-header-text-secondary-color,rgba(0, 0, 0, .55));
+}
+
+.bolt-breadcrumb-item-text {
+    color: rgba(0,0,0,.55);
+    color: var(--text-secondary-color,rgba(0, 0, 0, .55));
+    padding: 4px 8px;
+    max-width: 200px;
+    font-weight: 400;
+}
+
+.bolt-breadcrumb-hidden-element {
+    display: none;
+}
+
+.header-breadcrumb .bolt-breadcrumb .bolt-breadcrumb-divider {
+    color: rgba(0,0,0,.38);
+    color: var(--nav-header-text-disabled-color,rgba(0, 0, 0, .38));
+}
+
+.bolt-breadcrumb-divider {
+    padding: 0 8px;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.bolt-breadcrumb-list-item .bolt-breadcrumb-item-text-container:focus, .bolt-breadcrumb-list-item .bolt-breadcrumb-item-text-container:hover {
+    background: rgba(0,0,0,.08);
+    background: var(--nav-vertical-active-group-background,rgba(0, 0, 0, .08));
+}
+
+/* header end */
+
+/* side bar start */
+
+.region-navigation {
+    overflow: hidden;
+    position: relative;
+    width: 48px;
+    transition: width 1ms cubic-bezier(.4,0,.2,1);
+}
+
+.region-navigation.expanded {
+    transition-duration: 200ms;
+    width: 260px;
+}
+
+.project-navigation {
+    background: rgba(0,0,0,.08);
+    background: var(--nav-vertical-background-color,rgba(0, 0, 0, .08));
+    border-color: rgba(234,234,234,1);
+    border-color: rgba(var(--palette-neutral-8,234, 234, 234),1);
+    border-right: 1px solid rgba(0,0,0,.1);
+    border-right: 1px solid var(--palette-black-alpha-10,rgba(0, 0, 0, .1));
+    color: rgba(0,0,0,.9);
+    color: var(--text-primary-color,rgba(0, 0, 0, .9));
+    white-space: nowrap;
+}
+
+.project-navigation .navigation-element:focus, .project-navigation .navigation-element:hover {
+    background: rgba(0,0,0,.08);
+    background: var(--nav-vertical-active-group-background,rgba(0, 0, 0, .08));
+}
+
+.region-navigation {
+    overflow: hidden;
+    position: relative;
+    width: 48px;
+    transition: width 1ms cubic-bezier(.4,0,.2,1);
+}
+
+.project-navigation.expanded .collapsible-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-navigation .navigation-icon {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 47px;
+}
+
+.project-navigation .contributed-icon-image {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.vss-Persona.small {
+    width: 24px;
+    height: 24px;
+}
+
+.vss-Persona .vss-Persona-content.using-image {
+    object-fit: cover;
+    background-color: transparent;
+}
+
+.project-persona .vss-Persona-content {
+    border-radius: 4px;
+}
+
+.vss-Persona .vss-Persona-content {
+    /*border-radius: 50%;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgba(166,166,166,1);
+    background-color: rgba(var(--palette-neutral-30,166, 166, 166),1);
+    user-select: none;
+}
+
+.text-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.project-navigation .separator {
+    background-color: rgba(0,0,0,.1);
+    background-color: var(--palette-black-alpha-10,rgba(0, 0, 0, .1));
+    height: 1px;
+    margin: 0 10px;
+}
+
+.project-navigation .navigation-section {
+    margin: 4px 0;
+}
+
+.custom-scrollbar {
+    scrollbar-color: rgba(0,0,0,.2) transparent;
+    scrollbar-color: var(--palette-black-alpha-20,rgba(0, 0, 0, .2)) transparent;
+    scrollbar-width: thin;
+}
+
+.v-scroll-auto {
+    overflow-y: auto;
+}
+
+.region-navigation .navigation-link {
+    color: rgba(0,0,0,.9);
+    color: var(--text-primary-color,rgba(0, 0, 0, .9));
+    padding-right: 4px;
+}
+
+
+
+.project-navigation .hub.stand-alone {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+
+.project-navigation .hub-group-container.expanded-container {
+    background-color: rgba(0,0,0,.08);
+    background-color: var(--nav-vertical-active-group-background,rgba(0, 0, 0, .08));
+}
+
+
+.project-navigation .hub-group-container.displayed-container::before {
+    bottom: 0;
+    background-color: rgba(0,0,0,.2);
+    background-color: var(--palette-black-alpha-20,rgba(0, 0, 0, .2));
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3px;
+}
+
+/* side bar end */
+
+/* contents */
+.v-scroll-auto {
+    overflow-y: auto;
+}
